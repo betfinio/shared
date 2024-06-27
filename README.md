@@ -1,39 +1,14 @@
-# <h1 align="center"> Forge Template </h1>
+# BetFin.io contracts
 
-**Template repository for getting started quickly with Foundry projects**
+Currently deployed on Polygon Network
 
-![Github Actions](https://github.com/foundry-rs/forge-template/workflows/CI/badge.svg)
-
-## Getting Started
-
-Click "Use this template" on [GitHub](https://github.com/foundry-rs/forge-template) to create a new repository with this repo as the initial state.
-
-Or, if your repo already exists, run:
-```sh
-forge init
-forge build
-forge test
-```
-
-## Writing your first test
-
-All you need is to `import forge-std/Test.sol` and then inherit it from your test contract. Forge-std's Test contract comes with a pre-instatiated [cheatcodes environment](https://book.getfoundry.sh/cheatcodes/), the `vm`. It also has support for [ds-test](https://book.getfoundry.sh/reference/ds-test.html)-style logs and assertions. Finally, it supports Hardhat's [console.log](https://github.com/brockelmore/forge-std/blob/master/src/console.sol). The logging functionalities require `-vvvv`.
-
-```solidity
-pragma solidity 0.8.10;
-
-import "forge-std/Test.sol";
-
-contract ContractTest is Test {
-    function testExample() public {
-        vm.roll(100);
-        console.log(1);
-        emit log("hi");
-        assertTrue(true);
-    }
-}
-```
-
-## Development
-
-This project uses [Foundry](https://getfoundry.sh). See the [book](https://book.getfoundry.sh/getting-started/installation.html) for instructions on how to install and use Foundry.
+| Contract    | Address                                    |
+| ----------- | ------------------------------------------ |
+| Token       | 0xbF7970D56a150cD0b60BD08388A4A75a27777777 |
+| Pass        | 0xBF2E84403A7BcEA0b74Cdc1b580aE82397777777 |
+| Core        | 0xBf87898C4e609598a393cCD765482BeF80000000 |
+| Partner     | 0xB918979e39Fc955B7aCf4b5B77fFaBFF316a2287 |
+| BetsMemory  | 0xbFC62dAc5Cc5A095F72311239a56E5d78b000777 |
+| Predict     | 0xBfA2E5373088c58febfD2D32F5ad69DfaF555000 |
+| Multimint   | 0xe6f0bc070EC9CC518328891d7f73B8292bf656F1 |
+| PredictGame | 0xf2FFf7eFB08436a7B20040eA18F50e77Ce35f420 |
