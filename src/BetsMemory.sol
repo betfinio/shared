@@ -3,7 +3,7 @@ pragma solidity ^0.8.6;
 
 import "openzeppelin/access/AccessControl.sol";
 import "./BetInterface.sol";
-import "./GameInterface.sol";
+import "./games/GameInterface.sol";
 import "./Pass.sol";
 
 contract BetsMemory is AccessControl {

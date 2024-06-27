@@ -5,7 +5,7 @@ import "openzeppelin/token/ERC20/utils/SafeERC20.sol";
 import "openzeppelin/access/AccessControl.sol";
 import "openzeppelin/token/ERC20/ERC20.sol";
 import "./staking/StakingInterface.sol";
-import "./GameInterface.sol";
+import "./games/GameInterface.sol";
 import "./BetsMemory.sol";
 import "./Partner.sol";
 import "./Tariff.sol";

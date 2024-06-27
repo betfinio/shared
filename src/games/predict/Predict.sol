@@ -2,7 +2,7 @@
 pragma solidity ^0.8.6;
 
 import "openzeppelin/access/AccessControl.sol";
-import "../../GameInterface.sol";
+import "../GameInterface.sol";
 import "../../CoreInterface.sol";
 import "./PredictGame.sol";
 
